@@ -124,6 +124,9 @@ a{
 body
 {
 background:#E5E5E5;
+padding-left:10px; 
+padding-right:10px;
+margin: 0;
 }
 
 h1{
@@ -132,6 +135,7 @@ h1{
 	font-weight: 300;
 	font-size: 3em;
 	margin-bottom: 15px;
+
 	
 }
 
@@ -139,7 +143,7 @@ h1{
 #wrapper{
 	
 	margin: 0 auto;
-	width: 500px;
+	width: 400px;
 
 }
 
@@ -147,12 +151,12 @@ h1{
 	text-align: center;
 	color:#FF5722;
 	margin: 0;
-	width: 500px;
+	width: 400px;
 }
 
 .header-right {
 	text-align: center;
-	width: 500px;
+	width: 400px;
 	font-family: 'Oxygen';
 	font-weight: 300;
 	font-size: 1.5em;
@@ -162,7 +166,7 @@ h1{
 }
 
 .headerimage {
-	width: 500px;
+	width: 400px;
 	text-align: center;
 	display: block;
 	padding-left: 0;
@@ -175,7 +179,7 @@ h1{
 }
 
 .maincontentheader{
-	width: 500px;
+	width: 400px;
 	text-align: center;
 	padding-top: 50px;
 	margin-left: 0px;
@@ -192,7 +196,7 @@ a{
 	padding-left: 0px;
 	padding-right: 0px;
 	padding-bottom: 10px;
-	width: 500px;
+	width: 400px;
 
 
 }
@@ -203,16 +207,16 @@ a{
 
 }
 .maincontent{
-	width: 500px;
+	width: 400px;
 }
 
 .subcontentheader{
 	color:#FF5722;
-	width: 500px;
+	width: 400px;
 	text-align: center;
 }
 .project{
-	width: 500px;
+	width: 400px;
 	display: inline-block;
 	padding: 0;
 }
@@ -231,7 +235,7 @@ a{
 }
 
 .footer{
-	width: 500px;
+	width: 400px;
 	padding-top: 100px;
 	text-align: center;
 	color:#FF5722;
