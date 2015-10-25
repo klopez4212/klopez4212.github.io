@@ -137,8 +137,9 @@ h1{
 
 
 #wrapper{
-	display: inline;
+	
 	margin: 0 auto;
+	width: 300px;
 
 }
 
@@ -146,10 +147,12 @@ h1{
 	text-align: center;
 	color:#FF5722;
 	margin: 0;
+	width: 400px;
 }
 
 .header-right {
-	display: block;
+	text-align: center;
+	width: 400px;
 	font-family: 'Oxygen';
 	font-weight: 300;
 	font-size: 1.5em;
@@ -159,13 +162,20 @@ h1{
 }
 
 .headerimage {
-	vertical-align: top;
-    display: inline-block;
-	padding-left: 50px;
+	width: 400px;
+	text-align: center;
+	display: block;
+	padding-left: 0;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 
 }
 
 .maincontentheader{
+	width: 400px;
 	text-align: center;
 	padding-top: 50px;
 	margin-left: 0px;
@@ -192,18 +202,18 @@ a{
 
 }
 .maincontent{
-	width: 900px;
+	width: 400px;
 }
 
 .subcontentheader{
 	color:#FF5722;
-	width: 900px;
+	width: 300px;
 	text-align: center;
 }
 .project{
 	width: 350px;
 	display: inline-block;
-	padding-left: 25px;
+	padding: 0;
 }
 
 .example{
@@ -220,7 +230,7 @@ a{
 }
 
 .footer{
-
+	width: 400px;
 	padding-top: 100px;
 	text-align: center;
 	color:#FF5722;
