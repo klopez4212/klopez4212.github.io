@@ -188,10 +188,9 @@ a{
 }
 
 #projectimage{
-	padding-top: 25px;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 400px;
 
 
 }
@@ -207,7 +206,7 @@ a{
 
 .subcontentheader{
 	color:#FF5722;
-	width: 300px;
+	width: 400px;
 	text-align: center;
 }
 .project{
@@ -219,7 +218,9 @@ a{
 .example{
 	margin-left: auto;
     margin-right: auto;
+    width: 400px;
 }
+
 
 
 .projecttext{
