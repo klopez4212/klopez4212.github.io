@@ -188,8 +188,10 @@ a{
 }
 
 #projectimage{
+	padding-top: 25px;
 	padding-left: 0px;
-	padding-right: 0px;
+	padding-right: 25px;
+	padding-bottom: 10px;
 	width: 400px;
 
 
@@ -210,7 +212,7 @@ a{
 	text-align: center;
 }
 .project{
-	width: 400px;
+	width: 350px;
 	display: inline-block;
 	padding: 0;
 }
@@ -218,9 +220,7 @@ a{
 .example{
 	margin-left: auto;
     margin-right: auto;
-    width: 400px;
 }
-
 
 
 .projecttext{
