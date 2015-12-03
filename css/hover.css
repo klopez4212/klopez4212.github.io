@@ -357,6 +357,32 @@
   transform: translateY(-8px);
 }
 
+
+.hvr-float2 {
+  vertical-align: middle;
+  display: block;
+    max-width: 100%;
+    position: absolute;
+    padding-top: 175px;
+    left:49%;
+    transform:translateX(-50%);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float2:hover, .hvr-float2:focus, .hvr-float2:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
 /* Sink */
 .hvr-sink {
   display: inline-block;
