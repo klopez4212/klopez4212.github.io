@@ -23,7 +23,7 @@ h1{
     height: 600px;
     
     overflow:auto;
-    background: linear-gradient(270deg,#455a64, #607d8b, #91a4ac, #1c5770);
+    background: linear-gradient(270deg,#455a64, #607d8b, #91a4ac, #356276);
 	background-size: 600% 600%;
 
 	-webkit-animation: grad 30s ease infinite;
@@ -184,7 +184,24 @@ h1{
 	margin: 0 auto;
     width: auto;
     height: 700px;
-    background: #607D8B;
+    background: linear-gradient(270deg,#455a64, #607d8b, #91a4ac, #356276);
+	background-size: 600% 600%;
+
+	-webkit-animation: grad 30s ease infinite;
+	animation: grad 30s ease infinite;
+	}
+
+	@-webkit-keyframes grad {
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+	}
+	@keyframes grad { 
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+
+	}
     
 
 }
