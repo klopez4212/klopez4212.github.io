@@ -218,6 +218,12 @@ h1{
 
 }
 
+#wrappernav{
+	margin: 0 auto;
+    width: auto;
+
+}
+
 #wrapperbody{
 	margin: 0 auto;
     width: 350px;
