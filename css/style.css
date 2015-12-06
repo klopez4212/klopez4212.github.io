@@ -23,6 +23,10 @@ h1{
     height: 600px;
     
     overflow:auto;
+    background-color: #303F9F;
+    }
+    
+    <!--
     background: linear-gradient(270deg,#455a64, #607d8b, #91a4ac, #356276);
 	background-size: 600% 600%;
 
@@ -41,6 +45,7 @@ h1{
 	    100%{background-position:0% 50%}
 
 	}
+	-->
 
 #wrapper{
 	margin: 0 auto;
