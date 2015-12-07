@@ -5,6 +5,7 @@ height: auto;
 margin-right: 0px;
 margin-left: 0px;
 margin-top: 0px;
+margin-bottom: 25px;
 }
 
 
@@ -152,9 +153,8 @@ a{
 
 .footer{
 
-	padding-top: 100px;
 	text-align: center;
-	color:#FF5722;
+	background-color:#303F9F;
 }
 
 .footer-right {
@@ -172,6 +172,7 @@ a{
 	font-size: 1.5em;
 	color: #FFFFFF;
 }
+
 
 
 @media screen and (max-width: 768px) {
@@ -316,7 +317,6 @@ a{
 
 .footer{
 
-	padding-top: 100px;
 	text-align: center;
 	color:#FF5722;
 }
