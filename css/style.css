@@ -18,6 +18,65 @@ h1{
 	
 }
 
+.contentpagesubject{
+	font-family: 'Oxygen';
+	font-weight: 300;
+	font-size: 1.5em;
+	margin-bottom: 15px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 100px;
+	padding-bottom: 40px;
+	width: 40%;
+	margin: 0 auto; 
+}
+
+.contentpagereq{
+	font-family: 'Oxygen';
+	font-weight: 300;
+	font-size: 1.5em;
+	margin-bottom: 15px;
+	text-align: left;
+	color: #FFFFFF;
+	padding-top: 100px;
+	padding-bottom: 40px;
+	width: 40%;
+	margin: 0 auto; 
+}
+
+#headline{
+	display: inline-block;
+	padding-left: 50px;
+    }
+
+.headlinetext{
+
+	width: 300px;
+	padding-left: 10px;
+	font-family: 'Bitter';
+	font-weight: 300;
+	color: #FFFFFF;
+    }
+
+.headlinesubject{
+	width: 300px;
+	
+	text-align: center;
+	font-family: 'Bitter';
+	font-weight: 300;
+	color: #FFFFFF;
+    }
+
+ .headlinedate{
+	width: 300px;
+	text-align: right;
+	font-family: 'Bitter';
+	font-weight: 300;
+	color: #FFFFFF;	
+    }
+
+
+
 #wrapperfold{
 	margin: 0 auto;
     width: auto;
@@ -48,9 +107,48 @@ h1{
 	}
 	-->
 
+
+
+#yidiofold{
+	margin: 0 auto;
+    width: auto;
+    height: 600px;
+    
+    overflow:auto;
+    background-color: #FD8729;
+    }
+    
+    <!--
+    background: linear-gradient(270deg,#455a64, #607d8b, #91a4ac, #356276);
+	background-size: 600% 600%;
+
+	-webkit-animation: grad 30s ease infinite;
+	animation: grad 30s ease infinite;
+	}
+
+	@-webkit-keyframes grad {
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+	}
+	@keyframes grad { 
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+
+	}
+	-->
+
 #wrapper{
 	margin: 0 auto;
     width: 900px;
+
+}
+
+#wrapperproject{
+	display: flex;
+	align-items: baseline;
+  	justify-content: center;
 
 }
 
@@ -141,6 +239,7 @@ a{
 .example{
 	margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 
@@ -201,6 +300,7 @@ h1{
 
 
 }
+
 
 #wrappernav{
 	margin: 0 auto;
@@ -358,4 +458,5 @@ a{
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
 }
+
 
