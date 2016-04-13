@@ -46,7 +46,6 @@ h2{
 	margin-bottom: 15px;
 	text-align: left;
 	color: #FFFFFF;
-	padding-top: 100px;
 	padding-bottom: 40px;
 	width: 70%;
 	margin: 0 auto; 
@@ -226,6 +225,12 @@ a{
 
 #iconimage{
 	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+#flowimage{
+	padding-top: 0px;
 	padding-bottom: 10px;
 
 }
