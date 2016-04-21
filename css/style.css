@@ -34,7 +34,6 @@ h2{
 
 .footer{
 	height:150px;
-	color:#000000;
 }
 
 .footer-left{
@@ -49,6 +48,34 @@ h2{
 	height:100%;
 	width: 50%;
 }
+
+.footer-fade-left {
+    float: left;
+	height:100%;
+	width: 50%;
+    opacity: .8;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+.footer-fade-left:hover {
+      opacity: 1.2;
+      }
+
+.footer-fade-right {
+    float: left;
+	height:100%;
+	width: 50%;
+    opacity: 0.8;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+.footer-fade-right:hover {
+      opacity: 1.2;
+      }
 
 .line-separator{
 
@@ -80,6 +107,16 @@ margin-bottom: 15px;
 	padding-bottom: 40px;
 	width: 70%;
 	margin: 0 auto; 
+}
+
+.headerexample{
+	width: 70%;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+
+
 }
 
 #headline{

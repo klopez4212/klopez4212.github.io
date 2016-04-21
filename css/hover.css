@@ -404,8 +404,8 @@
   
 }
 .hvr-float-grow:hover, .hvr-float-grow:focus, .hvr-float-grow:active {
- -webkit-transform: scale(1.1) translateX(-12px);
-  transform: scale(1.1) translateX(-12px);
+ -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 
