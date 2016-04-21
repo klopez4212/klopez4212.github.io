@@ -53,28 +53,47 @@ h2{
     float: left;
 	height:100%;
 	width: 50%;
-    opacity: .8;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
+	  -webkit-filter: grayscale(100%);
+	  -webkit-transition: .5s ease-in-out;
+	  -moz-filter: grayscale(100%); 
+	  -moz-transition: .5s ease-in-out;
+	  -o-filter: grayscale(100%); 
+	  -o-transition: .5s ease-in-out;
+	  filter: grayscale(100%);
    }
 
 .footer-fade-left:hover {
-      opacity: 1.2;
+	  -webkit-filter: grayscale(0%);
+	  -webkit-transition: .5s ease-in-out;
+	  -moz-filter: grayscale(0%);
+	  -moz-transition: .5s ease-in-out;
+	  -o-filter: grayscale(0%);
+	  -o-transition: .5s ease-in-out;
+	  filter: grayscale(0%);
+
       }
 
 .footer-fade-right {
-    float: left;
+    float: right;
 	height:100%;
 	width: 50%;
-    opacity: 0.8;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
+   	-webkit-filter: grayscale(100%);
+	  -webkit-transition: .5s ease-in-out;
+	  -moz-filter: grayscale(100%); 
+	  -moz-transition: .5s ease-in-out;
+	  -o-filter: grayscale(100%); 
+	  -o-transition: .5s ease-in-out;
+	  filter: grayscale(100%);
    }
 
 .footer-fade-right:hover {
-      opacity: 1.2;
+      -webkit-filter: grayscale(0%);
+	  -webkit-transition: .5s ease-in-out;
+	  -moz-filter: grayscale(0%);
+	  -moz-transition: .5s ease-in-out;
+	  -o-filter: grayscale(0%);
+	  -o-transition: .5s ease-in-out;
+	  filter: grayscale(0%);
       }
 
 .line-separator{
@@ -373,6 +392,31 @@ a{
 	font-size: 1.5em;
 	color: #FFFFFF;
 }
+
+
+.btn {
+	display: block;
+	width: 100%;
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.btn-primary.outline {
+    border: 2px solid #FD8729;
+    color: #FD8729;
+}
+.btn-primary.outline:hover{
+    color: #33a6cc;
+    border-color: #33a6cc;
+}
+
 
 
 
