@@ -5,7 +5,11 @@ height: auto;
 margin-right: 0px;
 margin-left: 0px;
 margin-top: 0px;
-margin-bottom: 25px;
+margin-bottom: 0px;
+}
+
+.examplebody{
+	background: #FFFFFF;
 }
 
 
@@ -22,8 +26,35 @@ h2{
 	font-family: 'Bitter';
 	font-weight: 300;
 	font-size: 2em;
-	margin-bottom: 15px;
-	
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+
+
+.footer{
+	height:150px;
+	color:#000000;
+}
+
+.footer-left{
+	float: left;
+	height:100%;
+	width: 50%;
+}
+
+
+.footer-right{
+	float: right;
+	height:100%;
+	width: 50%;
+}
+
+.line-separator{
+
+height:3px;
+margin-bottom: 15px;
+
 }
 
 .contentpagesubject{
@@ -32,7 +63,7 @@ h2{
 	font-size: 1.5em;
 	margin-bottom: 15px;
 	text-align: center;
-	color: #FFFFFF;
+	color: #000000;
 	padding-top: 100px;
 	padding-bottom: 40px;
 	width: 40%;
@@ -45,7 +76,7 @@ h2{
 	font-size: 1em;
 	margin-bottom: 15px;
 	text-align: left;
-	color: #FFFFFF;
+	color: #000000;
 	padding-bottom: 40px;
 	width: 70%;
 	margin: 0 auto; 
@@ -145,6 +176,40 @@ h2{
 
 	}
 	-->
+	
+
+#netflixfold{
+	margin: 0 auto;
+    width: auto;
+    height: 750px;
+    
+    overflow:auto;
+    background-color: #E50914;
+    }
+    
+    <!--
+    background: linear-gradient(270deg,#455a64, #607d8b, #91a4ac, #356276);
+	background-size: 600% 600%;
+
+	-webkit-animation: grad 30s ease infinite;
+	animation: grad 30s ease infinite;
+	}
+
+	@-webkit-keyframes grad {
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+	}
+	@keyframes grad { 
+	    0%{background-position:0% 50%}
+	    50%{background-position:100% 50%}
+	    100%{background-position:0% 50%}
+
+	}
+	-->
+	
+
+
 
 #wrapper{
 	margin: 0 auto;
@@ -264,14 +329,6 @@ a{
 }
 
 
-.footer-right {
-	font-family: 'Oxygen';
-	font-weight: 300;
-	font-size: 1.5em;
-	text-align: center;
-	
-
-}
 
 .sub-title {
 	font-family: 'Oxygen';
@@ -425,8 +482,7 @@ a{
 }
 
 .footer{
-
-	text-align: center;
+	height: 200px;
 	color:#FF5722;
 }
 
