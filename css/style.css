@@ -242,6 +242,25 @@ margin-bottom: 15px;
     overflow:auto;
     background-color: #E50914;
     }
+
+
+#glifftfold{
+	margin: 0 auto;
+    width: auto;
+    height: 750px;
+    
+    overflow:auto;
+    background-color: #6A7DE8;
+    }
+
+ #canopyfold{
+	margin: 0 auto;
+    width: auto;
+    height: 750px;
+    
+    overflow:auto;
+    background-color: #5CCB78;
+    }
     
     <!--
     background: linear-gradient(270deg,#455a64, #607d8b, #91a4ac, #356276);
@@ -263,8 +282,6 @@ margin-bottom: 15px;
 
 	}
 	-->
-	
-
 
 
 #wrapper{
