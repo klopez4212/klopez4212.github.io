@@ -133,9 +133,15 @@ margin-bottom: 15px;
 	margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
 
-
-
+.headerexample2{
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+ 	margin-bottom: 0px;
 }
 
 #headline{
@@ -254,12 +260,12 @@ margin-bottom: 15px;
     }
 
  #canopyfold{
-	margin: 0 auto;
     width: auto;
     height: 750px;
-    
+    margin: 0 auto; 
     overflow:auto;
     background-color: #5CCB78;
+    position: relative;
     }
     
     <!--
@@ -294,6 +300,13 @@ margin-bottom: 15px;
 	display: flex;
 	align-items: baseline;
   	justify-content: center;
+  	z-index: 5;
+	position: fixed;
+    height: 7%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #FFFFFF;
 
 }
 
@@ -346,10 +359,6 @@ margin-bottom: 15px;
 	margin-left: 0px;
 	color:#FF5722;
 
-}
-
-a{
-	display:inline-block;
 }
 
 #projectimage{
