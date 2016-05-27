@@ -258,7 +258,7 @@ margin-bottom: 15px;
     height: 750px;
     
     overflow:auto;
-    background-color: #6A7DE8;
+    background-color: #00BFD4;
     }
 
  #canopyfold{
@@ -290,6 +290,30 @@ margin-bottom: 15px;
 
 	}
 	-->
+
+	.video-mask{
+	z-index: 2;
+	position: absolute;
+    width: 100%;
+    height: 750px;
+    top: 0;
+    left: 0;
+    background-color: #00BFD4;
+}
+
+#bg-video{
+	z-index: 1;
+	position: absolute;
+    pointer-events: none;
+    min-width: 100%;
+    min-height: 100%;
+   
+}
+
+.iframe-box {
+    max-width: 1280px; /* video width */
+    max-height: 720px; /* video height */
+}
 
 
 #wrapper{
