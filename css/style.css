@@ -156,6 +156,7 @@ margin-bottom: 15px;
 	padding-left: 50px;
     }
 
+
 .headlinetext{
 
 	width: 300px;
@@ -351,7 +352,7 @@ margin-bottom: 15px;
 
 #wrapperbody{
 	margin: 0 auto;
-    width: 900px;
+    width: 90%;
     
 
 }
@@ -417,7 +418,8 @@ margin-bottom: 15px;
 
 }
 .maincontent{
-	width: 900px;
+	width: 90%;
+	margin: 0 auto;
 }
 
 .subcontentheader{
@@ -778,3 +780,5 @@ p{
  	margin-bottom: 0px;
  	display: none;
 }
+
+
