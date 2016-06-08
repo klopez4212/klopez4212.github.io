@@ -145,6 +145,17 @@ margin-bottom: 15px;
 	width: 80%;
 	margin: 0 auto; 
 }
+
+.learning{
+	font-family: 'Oxygen';
+	font-weight: 300;
+	font-size: 21px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin: 0 auto; 
+}
 .contentpagereq{
 	font-family: 'Oxygen';
 	font-weight: 300;
