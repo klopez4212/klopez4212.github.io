@@ -117,8 +117,9 @@ height:3px;
 margin-top: 10px;
 margin-bottom: 15px;
 
-
 }
+
+
 
 .contentpagesubject{
 	font-family: 'Oxygen';
@@ -298,6 +299,14 @@ margin-bottom: 15px;
     height: 750px;
   	overflow: hidden;
     background-color: #00BFD4;
+    }
+
+#tiltfold{
+	margin: 0 auto;
+    width: auto;
+    height: 750px;
+  	overflow: hidden;
+    background-color: #FFFFFF;
     }
 
  #canopyfold{
@@ -738,6 +747,15 @@ h1{
     background-color: #5CCB78;
     position: relative;
     }
+
+ #tiltfold{
+	margin: 0 auto;
+    width: auto;
+    height: 100px;
+  	overflow: hidden;
+    background-color: #00a0d8;
+    }
+
 
 
 #wrapperproject{
