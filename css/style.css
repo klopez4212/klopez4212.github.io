@@ -309,6 +309,14 @@ margin-bottom: 15px;
     background-color: #FFFFFF;
     }
 
+#atomfold{
+	margin: 0 auto;
+    width: auto;
+    height: 750px;
+  	overflow: hidden;
+    background-color: #0080FF;
+    }
+
  #canopyfold{
     width: auto;
     height: 750px;
@@ -515,6 +523,12 @@ margin-bottom: 15px;
     border: 2px solid #FD8729;
     color: #FD8729;
 }
+
+.btn-primary.outline2 {
+    border: 2px solid #0080FF;
+    color: 255, 255, 255;
+}
+
 .btn-primary.outline:hover{
     color: #33a6cc;
     border-color: #33a6cc;
@@ -756,6 +770,13 @@ h1{
     background-color: #00a0d8;
     }
 
+ #atomfold{
+	margin: 0 auto;
+    width: auto;
+    height: 100px;
+  	overflow: hidden;
+    background-color: #0080FF;
+    }
 
 
 #wrapperproject{
